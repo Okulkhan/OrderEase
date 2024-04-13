@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/goods'
+    username: 'postgres'
+    password: 'postgres'
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: chinarestro@gmail.com
+    password: rnvorxiklunclrkz
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
